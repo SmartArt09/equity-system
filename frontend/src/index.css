@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    color: #213547;
+    background-color: #ffffff;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  main {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-width: 320px;
+    min-height: 100vh;
+  }
+
+  h1 {
+    font-size: 3.2em;
+    font-weight: 650;
+    line-height: 1.1;
+  }
+
+  h2 {
+    font-size: 2.5em;
+    font-weight: 600;
+    line-height: 1.1;
+  }
+
+  h3 {
+    font-size: 2em;
+    font-weight: 500;
+    line-height: 1.1;
+  }
+
+  p {
+    font-size: 1.6em;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+
+  h1,
+  h2,
+  h3,
+  p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 0px; /* Width of the scrollbar */
+  }
+}
